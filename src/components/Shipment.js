@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Shipment = (props) => {
   const shipping = props.total > 0 && 500 > props.total ? 350 : 99;
@@ -24,6 +25,10 @@ const Shipment = (props) => {
       </div>
     </div>
   );
+};
+
+Shipment.propTypes = {
+  total: PropTypes.number.isRequired
 };
 
 export default Shipment;
