@@ -1,3 +1,13 @@
+# Hot_Burgers
+### **[Hot_Burgers](https://netlify-thinks-timofeilarin-is-great.netlify.app/)**
+## **Stack:**
+
+- ReactJS
+- React Router
+- React-Transition-Group
+- Firebase
+- Stylus
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
